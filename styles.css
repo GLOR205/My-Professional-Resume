@@ -1,0 +1,158 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+color: #333333d2;
+background-color: #f9f9f9;
+padding: 1rem;
+}
+main {
+max-width: 900px;
+margin: 1rem auto;
+background: #fff;
+padding: 1.5rem 2rem;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header {
+background: #004aad;
+padding: 1rem 0;
+}
+
+header nav ul {
+display: flex;
+justify-content: center;
+list-style: none;
+}
+
+header nav ul li {
+margin: 0 1.5rem;
+}
+
+header nav ul li a {
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+font-size: 1rem;
+transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+color: #ffcc00;
+}
+
+/* Section headings */
+section h2 {
+margin-bottom: 0.75rem;
+color: #004aad;
+border-bottom: 2px solid #004aad;
+padding-bottom: 0.3rem;
+}
+#about {
+text-align: center;
+margin-bottom: 2rem;
+}
+
+#about h1 {
+font-size: 2.5rem;
+margin-bottom: 0.5rem;
+}
+ul {
+list-style-type: disc;
+margin-left: 1.5rem;
+margin-bottom: 1.5rem;
+}
+section article {
+margin-bottom: 1.5rem;
+}
+footer {
+text-align: center;
+margin: 2rem 0;
+color: #666;
+font-size: 0.9rem;
+}
+@media (max-width: 768px) {
+header nav ul {
+flex-direction: column;
+padding: 0;
+}
+
+header nav ul li {
+margin: 0.5rem 0;
+}
+
+main {
+padding: 1rem;
+margin: 1rem;
+}
+}
+@media (max-width: 480px) {
+#about h1 {
+font-size: 2rem;
+}
+
+header nav ul li a {
+font-size: 0.9rem;
+}
+}
+#navToggle {
+display: none;
+background: transparent;
+border: none;
+font-size: 2rem;
+color: white;
+cursor: pointer;
+}
+
+@media (max-width: 768px) {
+#navToggle {
+display: block;
+}
+
+header nav ul {
+display: none;
+flex-direction: column;
+background: #004aad;
+position: absolute;
+width: 100%;
+left: 0;
+top: 60px;
+padding: 1rem 0;
+}
+
+header nav ul.active {
+display: flex;
+}
+}
+#navToggle {
+display: none;
+background: transparent;
+border: none;
+font-size: 2rem;
+color: white;
+cursor: pointer;
+}
+
+@media (max-width: 768px) {
+#navToggle {
+display: block;
+}
+
+header nav ul {
+display: none;
+flex-direction: column;
+background: #004aad;
+position: absolute;
+width: 100%;
+left: 0;
+top: 60px; 
+padding: 1rem 0;
+}
+
+header nav ul.active {
+display: flex;
+}
