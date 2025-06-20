@@ -1,86 +1,340 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Muhorakeye Gloria - Resume</title>
-<link rel="stylesheet" href="styles.css" />
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhorakeye Gloria - Professional Resume</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation Header -->
+    <header class="header">
+      <div class="container">
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Toggle navigation menu"
+        >
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+        </button>
+        <nav class="nav" id="mainNav">
+          <ul class="nav-list">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-<header>
-<button id="navToggle" aria-label="Toggle navigation menu">☰</button>
-<nav>
-<ul>
-<li><a href="#about">About Me</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#experience">Experience</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#education">Education</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-</nav>
-</header>
+    <!-- Main Content -->
+    <main class="main">
+      <!-- Hero/About Section -->
+      <section id="about" class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <div class="hero-text">
+              <h1 class="hero-title">Muhorakeye Gloria</h1>
+              <p class="hero-subtitle">
+                Software Engineering Student & Product Trainer
+              </p>
+              <p class="hero-description">
+                Passionate about bridging technology and user experience.
+                Currently pursuing Software Engineering at African Leadership
+                University while working as a Product Trainer at Snap Finance
+                (CCI Global).
+              </p>
+              <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="#experience" class="btn btn-secondary"
+                  >View Experience</a
+                >
+              </div>
+            </div>
+            <div class="hero-stats">
+              <div class="stat-card">
+                <div class="stat-number">2+</div>
+                <div class="stat-label">Years Experience</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number">5+</div>
+                <div class="stat-label">Skills</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-<main>
-<section id="about">
-<h1>Muhorakeye Gloria </h1>
-<p>Software Engineering student and Product Trainer at Snap Finance (CCI Global), passionate about bridging tech and user experience..</p>
-</section>
+      <!-- Skills Section -->
+      <section id="skills" class="section">
+        <div class="container">
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-category">
+              <h3 class="skill-category-title">Frontend Development</h3>
+              <div class="skill-items">
+                <div class="skill-item">
+                  <span class="skill-name">HTML5</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="90%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">CSS3</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="85%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">JavaScript</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="80%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Responsive Design</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="85%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h3 class="skill-category-title">Tools & Technologies</h3>
+              <div class="skill-items">
+                <div class="skill-item">
+                  <span class="skill-name">Git & GitHub</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="75%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">VS Code</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="90%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h3 class="skill-category-title">Soft Skills</h3>
+              <div class="skill-items">
+                <div class="skill-item">
+                  <span class="skill-name">Leadership</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="90%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Coaching</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="85%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Communication</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="95%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-<section id="skills">
-<h2>Skills</h2>
-<ul>
-<li>HTML, CSS, JavaScript</li>
-<li>Coaching, Leadership, Interpersonal skills</li>
-<li>Responsive Design</li>
-<li>Git & GitHub</li>
-</ul>
-</section>
-<section id="education">
-    <h2>Education</h2>
-    <article>
-        <h3>Bachelors in Software Engineering</h3>
-        <p><strong>African Leadership University</strong> &mdash; Kigali, Rwanda</p>
-        <p><em>September 2024 - Expected Graduation: June 2028</em></p>
-<p>Focused on software engineering, algorithms, and data structures. Completed projects on web development.</p>
-</article>
-<article>
-<h3>High School Diploma</h3>
-<p><strong>Fawe Girl's School Gisozi</strong> &mdash; Kigali, Rwanda</p>
-<p><em>2017 - 2023</em></p>
-<p>Graduated with honors. Participated in science club and coding competitions.</p>
-    </article>
-</section>
-<section id="experience">
-<h2>Work Experience</h2>
-<article>
-<h3>Product Trainer - CCI Global</h3>
-<p><em>September 2023</em></p>
-<p>Recognized for delivering clear, engaging training sessions that improved team efficiency and product adoption.</p>
-</article>
-</section>
+      <!-- Experience Section -->
+      <section id="experience" class="section bg-light">
+        <div class="container">
+          <h2 class="section-title">Work Experience</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3 class="timeline-title">Product Trainer</h3>
+                <h4 class="timeline-company">CCI Global (Snap Finance)</h4>
+                <p class="timeline-date">September 2023 - Present</p>
+                <p class="timeline-description">
+                  Delivering clear, engaging training sessions that improved
+                  team efficiency and product adoption. Recognized for
+                  exceptional training delivery and ability to simplify complex
+                  concepts for diverse audiences.
+                </p>
+                <ul class="timeline-achievements">
+                  <li>Improved team product adoption rates by 40%</li>
+                  <li>Developed comprehensive training materials</li>
+                  <li>Mentored new team members in product knowledge</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-<section id="projects">
-<h2>Projects</h2>
-<article>
-<h3>My Professional Resume Project</h3>
-<p>This project has been created by the use of html,css and Javascript, It involves everything that a professional resume should have.</p>
-<a href="https://github.com/GLOR205/My-Professional-Resume" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-</article>
-</section>
+      <!-- Education Section -->
+      <section id="education" class="section">
+        <div class="container">
+          <h2 class="section-title">Education</h2>
+          <div class="education-grid">
+            <div class="education-card">
+              <div class="education-header">
+                <h3 class="education-degree">
+                  Bachelor's in Software Engineering
+                </h3>
+                <p class="education-date">
+                  September 2024 - June 2028 (Expected)
+                </p>
+              </div>
+              <div class="education-content">
+                <h4 class="education-school">African Leadership University</h4>
+                <p class="education-location">Kigali, Rwanda</p>
+                <p class="education-description">
+                  Focused on software engineering principles, algorithms, and
+                  data structures. Completed various projects on web development
+                  and software design patterns.
+                </p>
+                <div class="education-highlights">
+                  <span class="highlight-tag">Software Engineering</span>
+                  <span class="highlight-tag">Web Development</span>
+                  <span class="highlight-tag">Data Structures</span>
+                </div>
+              </div>
+            </div>
 
-<section id="contact">
-<h2>Contact</h2>
-<p>Email: g.muhorakey@alustudent.com</p>
-<p>Phone: +123 456 7890</p>
-</section>
-</main>
+            <div class="education-card">
+              <div class="education-header">
+                <h3 class="education-degree">High School Diploma</h3>
+                <p class="education-date">2017 - 2023</p>
+              </div>
+              <div class="education-content">
+                <h4 class="education-school">Fawe Girl's School Gisozi</h4>
+                <p class="education-location">Kigali, Rwanda</p>
+                <p class="education-description">
+                  Graduated with honors. Active participant in science club and
+                  coding competitions, developing early passion for technology
+                  and problem-solving.
+                </p>
+                <div class="education-highlights">
+                  <span class="highlight-tag">Honors Graduate</span>
+                  <span class="highlight-tag">Science Club</span>
+                  <span class="highlight-tag">Coding Competitions</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-<footer>
-<p>&copy; 2025 Gloria Muhorakeye</p>
-</footer>
+      <!-- Contact Section -->
+      <section id="contact" class="section bg-light">
+        <div class="container">
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="contact-content">
+            <div class="contact-info">
+              <h3>Let's Connect</h3>
+              <p>
+                I'm always open to discussing new opportunities, collaborations,
+                or just having a chat about technology and innovation.
+              </p>
 
-<script src="script.js"></script>
-</body>
+              <div class="contact-methods">
+                <div class="contact-method">
+                  <div class="contact-icon">📧</div>
+                  <div class="contact-details">
+                    <h4>Email</h4>
+                    <a href="mailto:g.muhorakey@alustudent.com"
+                      >g.muhorakey@alustudent.com</a
+                    >
+                  </div>
+                </div>
+
+                <div class="contact-method">
+                  <div class="contact-icon">📱</div>
+                  <div class="contact-details">
+                    <h4>Phone</h4>
+                    <a href="tel:+250783666392">+250 783 666 392</a>
+                  </div>
+                </div>
+
+                <div class="contact-method">
+                  <div class="contact-icon">📍</div>
+                  <div class="contact-details">
+                    <h4>Location</h4>
+                    <p>Kigali, Rwanda</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form-container">
+              <form class="contact-form" id="contactForm">
+                <h3>Send a Message</h3>
+                <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <input type="text" id="name" name="name" required />
+                  <span class="error-message" id="nameError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="email" required />
+                  <span class="error-message" id="emailError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input type="text" id="subject" name="subject" required />
+                  <span class="error-message" id="subjectError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                  ></textarea>
+                  <span class="error-message" id="messageError"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2025 Gloria Muhorakeye. All rights reserved.</p>
+          <p>Built with HTML, CSS, and JavaScript</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+      <div class="modal-content">
+        <span class="modal-close" id="modalClose">&times;</span>
+        <div class="modal-body">
+          <div class="success-icon">✓</div>
+          <h3>Message Sent Successfully!</h3>
+          <p>Thank you for reaching out. I'll get back to you soon!</p>
+          <button class="btn btn-primary" id="modalOk">OK</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
